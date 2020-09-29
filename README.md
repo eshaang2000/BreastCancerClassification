@@ -1,11 +1,5 @@
 Eshaan Gandhi
 
-Ghost in the Machine: AI and Ethics
-
-Professor Aaron Rabinowitz
-
-Breast Cancer Classification Tool
-
 Breast Cancer Classification Tool
 
 **Overview**
