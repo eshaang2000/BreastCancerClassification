@@ -4,7 +4,7 @@ Breast Cancer Classification Tool
 
 **Overview**
 
-For the mid-semester project, I created a plan that makes a diagnosis of whether someone has breast cancer or not looking at a certain number of characteristics. The Diagnostic Wisconsin Breast Cancer Database donated the data set I used. There are some more details about the data set in this document. The program can predict the occurrence of Breast Cancer with an accuracy of ~94%. I will explain my process, code, and learnings in this document.
+I recreated a model that makes a diagnosis of whether someone has breast cancer or not looking at a certain number of characteristics. The Diagnostic Wisconsin Breast Cancer Database donated the data set I used. There are some more details about the data set in this document. The program can predict the occurrence of Breast Cancer with an accuracy of ~94%. I will explain my process, code, and learnings in this document.
 
 **Data Set**
 
@@ -65,11 +65,3 @@ This algorithm approaches the local minimum rapidly at first but then slows down
 **Testing**
 
 The data set consists of more than 500 entries. I split the entries and used one set to train the Artificial Intelligence and the other set to test it. Also, if you look at the dataset, Benign and Malignant Datasets are clumped together. Hence, I shuffled them to remove the bias from the data set. This significantly increased the accuracy of the AI by as much as 10%. I have also made an option where the user can test their inputs. There are test cases enclosed in the folder that I submitted.
-
-**Philosophical Implications**
-
-The project is basic but can be made more advance. While developing this project, I was thinking about the implications of the project if it could be extended to other aspects of healthcare. This would be able to predict if someone is going to get a disease or is going to suffer from a condition before it can even happen. A simple wearable device with this software can be an incredible way to help people prevent life-threatening diseases.
-
-If this AI ever manages to become sentient after repetitive iterations, would this be able to act as a doctor by itself? This would bring up a lot of problems, in my opinion. Would doctor-patient confidentiality bound this AI? The implication would be that if the AI is wrong in diagnostic, then would the robot be responsible for the doctor malpractice? Would it be liable to pay the penalty? I also think that patients will never be comfortable with only being treated using a robot. Humans tend to be more pleased with their kind.
-
-The accuracy percentage of this AI also changes every time it is retrained. This shows that AIs are a black box with no one knowing what&#39;s going on within the AI. This can be dangerous because the moment we lose transparency, it essentially puts the human race in problems.
