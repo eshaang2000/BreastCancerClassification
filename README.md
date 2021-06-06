@@ -65,3 +65,7 @@ This algorithm approaches the local minimum rapidly at first but then slows down
 **Testing**
 
 The data set consists of more than 500 entries. I split the entries and used one set to train the Artificial Intelligence and the other set to test it. Also, if you look at the dataset, Benign and Malignant Datasets are clumped together. Hence, I shuffled them to remove the bias from the data set. This significantly increased the accuracy of the AI by as much as 10%. I have also made an option where the user can test their inputs. There are test cases enclosed in the folder that I submitted.
+
+## Next step
+
+Next step is to code the logistic regression myself
